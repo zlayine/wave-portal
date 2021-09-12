@@ -9,13 +9,16 @@
     "@testing-library/user-event": "^12.8.3",
     "ethers": "^5.4.6",
     "react": "^17.0.2",
+    "react-confetti": "^6.0.1",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-transition-group": "^4.4.2",
+    "react-use": "^17.3.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "CI='' craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
